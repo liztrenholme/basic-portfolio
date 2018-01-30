@@ -78,6 +78,11 @@ img.profile {
 	clear: both;
 }
 
+.contactform {
+	text-align: center;
+	float: left;
+}
+
 .sidebar {
 	margin: 20px 20px 20px 0;
 	float: right;
