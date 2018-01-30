@@ -1,3 +1,104 @@
 body {
-	background-image: url(assets/images/concrete_seamless.png);
+	background-image: url("../images/concrete_seamless.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
+}
+
+header {
+	float: left;
+	background-color: #fff;
+	padding: 0 50px 0 0;
+}
+
+/* Name */
+h1 {
+	float: left;
+	background-color: #64A8A4;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #fff;
+	padding: 16px;
+}
+
+/* Navigation bar */
+ul {
+	float: left;
+	list-style: none;
+	color: #777777;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: inline-flex;
+	padding: 20px 5px 20px 400px;
+}
+
+li {
+	padding: 0 20px;
+	text-align: center;
+	right: auto;
+	left: auto;
+}
+
+/* Make the links look nice */
+a:link {
+	color: #777777;
+	text-decoration: none;
+	}
+a:visited {
+	color: #777777;
+	text-decoration: none;
+	}
+a:hover {
+	color: #64A8A4;
+	text-decoration: none;
+	}
+
+/* Main section */
+h2 {
+	color: #64A8A4;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #fff;
+	width: 450px;
+	padding: 0 0 0 10px;
+}
+
+p {
+	color: #777777;
+	display: inline-flex;
+	padding: 10px;
+}
+
+img.profile {
+	padding: 0 10px 10px 0;
+}
+
+.main {
+	margin: 20px 20px 20px 0;
+	float: left;
+	width: 450px;
+	border: 10px solid #fff;
+	background-color: #fff;
+	clear: both;
+}
+
+.sidebar {
+	margin: 20px 20px 20px 0;
+	float: right;
+	padding: 20px;
+	width: 250px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #64A8A4;
+	text-align: center;
+	background-color: #fff;
+}
+
+.bar {
+	background-color: #64A8A4;
+	padding: 3px;
+	clear: both;
+}
+
+footer {
+	background-color: #777777;
+	color: #fff;
+	text-align: center;
+	padding: 20px 100px;
+	clear: both;
 }
